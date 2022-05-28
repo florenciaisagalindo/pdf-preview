@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador de PDF</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="content">
+    <h1 class="title">Visualizador de PDF</h1>
+    <form>
+        <input type="file" name="pdfFile" id="pdfFile" required>
+        <button>Subir</button>
+        <embed id="embed" type="application/pdf" width="400" height="400">
+    </form>
+    <button id="btn-copy">Copiar al potapapeles</button>
+
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
